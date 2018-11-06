@@ -52,6 +52,17 @@
         padding-top: 3px;
         padding-left: 4px;
     }
+    
+  @media (max-width: 767px){
+    .calendarbox, .clockbox {
+        position: fixed !important;
+        top: 50% !important;
+        left: 50% !important;
+        transform: translate(0%, -50%);
+        margin: 0;
+        border: none;
+    }
+  }
 </style>
 <!--
 Force load jsi18n, issues #5
